@@ -403,7 +403,10 @@ span{
     #menu-icon {
        display: block; 
        padding-left: 5rem;
-       margin-left: 10rem ;
+       margin-right: 8rem ;
+    }
+    .header a{
+        margin-left: 1rem;
     }
     .navbar{
         position: absolute;
@@ -456,6 +459,11 @@ span{
 
 }
 @media (max-width: 617px){
+    #menu-icon {
+        display: block; 
+        padding-left: 0rem;
+        margin-right: 8rem ;
+     }
     .portfolio-container{
         grid-template-columns: 1fr;
     }
@@ -465,16 +473,23 @@ span{
     html{
         font-size: 50%;
     }
+    #menu-icon {
+        display: block; 
+        padding-left: 0rem;
+        margin-right: 8rem ;
+     }
     .contact form .input-box input{
         width: 100%;
     }
 }
 
 @media (max-width: 365px){
-    .header a{
-        left: 0;
-        right: 15rem;
-    }
+    #menu-icon {
+        display: block; 
+        padding-left: 5rem;
+        margin-right: 8rem ;
+     }
+   
     .home-img img{
         width: 90vw;
     }
@@ -490,10 +505,12 @@ span{
     }
 }
 @media (max-width: 200px) {
-    .header a{
-        left: 0;
-        right: 15rem;
-    }
+    #menu-icon {
+        display: block; 
+        padding-left: 5rem;
+        margin-right: 8rem ;
+     }
+   
     .home-img img{
         width: 90vw;
     }

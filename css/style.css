@@ -471,6 +471,10 @@ span{
 }
 
 @media (max-width: 365px){
+    .header a{
+        left: 0;
+        right: 15rem;
+    }
     .home-img img{
         width: 90vw;
     }
@@ -484,4 +488,24 @@ span{
         text-align: center;
         margin-top: 2rem;
     }
+}
+@media (max-width: 200px) {
+    .header a{
+        left: 0;
+        right: 15rem;
+    }
+    .home-img img{
+        width: 90vw;
+    }
+    .about-img img{
+        width: 90vw;
+    }
+    .footer{
+       flex-direction: column-reverse; 
+    }
+    .footer p{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
 }

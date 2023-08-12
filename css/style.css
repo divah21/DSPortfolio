@@ -464,6 +464,10 @@ span{
         padding-left: 0rem;
         margin-right: 8rem ;
      }
+     .header a {
+        left: 0;
+        right: 15rem;
+    }
     .portfolio-container{
         grid-template-columns: 1fr;
     }
@@ -489,6 +493,10 @@ span{
         padding-left: 5rem;
         margin-right: 12rem ;
      }
+     .header a {
+        left: 0;
+        right: 15rem;
+    }
    
     .home-img img{
         width: 90vw;
@@ -510,6 +518,10 @@ span{
         padding-left: 5rem;
         margin-right: 12rem ;
      }
+     .header a {
+        left: 0;
+        right: 15rem;
+    }
    
     .home-img img{
         width: 90vw;

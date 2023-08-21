@@ -59,3 +59,29 @@ window.onscroll =() => {
     loop: true
  });
 
+ /* ================ Form Handler =====================*/
+ const form = document.getElementById('myForm');
+
+ form.addEventListener('submit', function(event) {
+     event.preventDefault(); // Prevent the default form submission behavior
+
+     const fullName = document.getElementById('fullName').value;
+     const email = document.getElementById('email').value;
+     const mobileNumber = document.getElementById('mobileNumber').value;
+     const emailSubject = document.getElementById('emailSubject').value;
+     const message = document.getElementById('message').value;
+
+     // Here you can perform any validation or data processing before sending the data to the server
+     // For now, let's just log the values to the console
+     console.log('Full Name:', fullName);
+     console.log('Email:', email);
+     console.log('Mobile Number:', mobileNumber);
+     console.log('Email Subject:', emailSubject);
+     console.log('Message:', message);
+
+     // You can send the data to the server using AJAX or fetch here
+
+     // Reset the form after submission
+     form.reset();
+ });
+
